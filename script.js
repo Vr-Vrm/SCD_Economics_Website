@@ -3,9 +3,31 @@ const slides = document.querySelectorAll('.slide');
 const overlayTitle=document.getElementById('overlayTitle');
 const overlaySubtitle=document.getElementById('overlaySubtitle');
 
-
+const maxSlides = 4; // Only loop through the first 4 slides
+let currentSlide = 0;
 
 function showSlide(index) {
+    slides.forEach((slide, i) => {
+        slide.classList.remove('active');
+        if (i === index) {
+            slide.classList.add('active');
+        }
+    });
+
+    const activeSlide = slides[index];
+    overlayTitle.textContent = activeSlide.getAttribute('data-title');
+    overlaySubtitle.textContent = activeSlide.getAttribute('data-subtitle');
+}
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % maxSlides;
+    showSlide(currentSlide);
+}
+
+showSlide(currentSlide);
+setInterval(nextSlide, 3000);
+
+/*function showSlide(index) {
     slides.forEach((slide, i) => {
         slide.classList.remove('active');
         if (i === index) {
@@ -24,7 +46,12 @@ function nextSlide() {
 }
 
 showSlide(currentSlide);
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 3000);*/
+
+
+
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const filterButtons = document.querySelectorAll('.filter-btn');
