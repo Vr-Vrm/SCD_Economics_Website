@@ -111,12 +111,12 @@ body {
     background-color: #f0f0f0;
 }
 
-.slide {
+/*.slide {
     position: absolute;
     width: 100%;
     opacity: 0;
     transition: opacity 1s ease-in-out;
-}
+} */
 
 
 .slide img {
@@ -129,10 +129,24 @@ body {
     transition: opacity 1s ease-in-out;
 }
 
-.slide.active {
+/*.slide.active {
     display: block;
     opacity: 1;
-    z-index: 5; /* Or 1, but choose one */
+    z-index: 5; /* Or 1, but choose one 
+}  */
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 1;
+    pointer-events: none; /* Optional: prevent interaction on hidden slides */
+}
+
+.slide.active {
+    pointer-events: auto; /* Enable interaction on active slide */
 }
 
 

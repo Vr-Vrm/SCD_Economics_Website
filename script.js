@@ -26,7 +26,9 @@ function nextSlide() {
 
 showSlide(currentSlide);
 setInterval(nextSlide, 3000); */
-let currentSlide = 0;
+
+
+/*let currentSlide = 0;
 const slides = document.querySelectorAll('.slide'); 
 function showSlide(index) {
     slides.forEach((slide, i) => {
@@ -47,7 +49,43 @@ function nextSlide() {
 }
 
 showSlide(currentSlide);
+setInterval(nextSlide, 3000); */
+
+const slides = document.querySelectorAll('.slide');
+const overlayTitle = document.getElementById('overlayTitle');
+const overlaySubtitle = document.getElementById('overlaySubtitle');
+
+let currentSlide = 0;
+const slideCount = slides.length;
+
+function showSlide(index) {
+    slides.forEach((slide, i) => {
+        if (i === index) {
+            slide.classList.add('active');
+            slide.style.opacity = '1';
+            slide.style.zIndex = '2';
+            // Update overlay text
+            overlayTitle.textContent = slide.getAttribute('data-title') || '';
+            overlaySubtitle.textContent = slide.getAttribute('data-subtitle') || '';
+        } else {
+            slide.classList.remove('active');
+            slide.style.opacity = '0';
+            slide.style.zIndex = '1';
+        }
+    });
+}
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % slideCount;
+    showSlide(currentSlide);
+}
+
+// Initial setup
+showSlide(currentSlide);
+
+// Change slide every 3 seconds
 setInterval(nextSlide, 3000);
+
 
 
 
