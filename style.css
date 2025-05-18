@@ -118,10 +118,6 @@ body {
     transition: opacity 1s ease-in-out;
 }
 
-.slide.active {
-    opacity: 1;
-    z-index: 5;
-}
 
 .slide img {
     position: absolute;
@@ -136,8 +132,9 @@ body {
 .slide.active {
     display: block;
     opacity: 1;
-    z-index: 1;
+    z-index: 5; /* Or 1, but choose one */
 }
+
 
 .overlay-box {
     position: absolute;

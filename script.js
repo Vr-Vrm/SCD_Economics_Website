@@ -4,7 +4,7 @@ const overlayTitle=document.getElementById('overlayTitle');
 const overlaySubtitle=document.getElementById('overlaySubtitle');
 
 const maxSlides = 4; // Only loop through the first 4 slides
-let currentSlide = 0;
+
 
 function showSlide(index) {
     slides.forEach((slide, i) => {
