@@ -1,4 +1,4 @@
-let currentSlide = 0;
+/*let currentSlide = 0;
 const slides = document.querySelectorAll('.slide');
 const overlayTitle=document.getElementById('overlayTitle');
 const overlaySubtitle=document.getElementById('overlaySubtitle');
@@ -25,9 +25,10 @@ function nextSlide() {
 }
 
 showSlide(currentSlide);
-setInterval(nextSlide, 3000);
-
-/*function showSlide(index) {
+setInterval(nextSlide, 3000); */
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slide'); 
+function showSlide(index) {
     slides.forEach((slide, i) => {
         slide.classList.remove('active');
         if (i === index) {
@@ -46,7 +47,7 @@ function nextSlide() {
 }
 
 showSlide(currentSlide);
-setInterval(nextSlide, 3000);*/
+setInterval(nextSlide, 3000);
 
 
 
