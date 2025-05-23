@@ -222,6 +222,8 @@ body {
 
 .team-member {
     text-align: center;
+    border: #246f5e 2px solid;
+    border-radius: 5px;
 }
 
 .team-member img {
@@ -229,8 +231,7 @@ body {
     height: 300px;
     border-radius: 5px;
     margin-bottom: 10px;
-    border: #246f5e 2px solid;
-    border-radius: 5px;
+    
 }
 
 .member-name {
