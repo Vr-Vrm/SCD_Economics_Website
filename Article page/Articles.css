@@ -80,3 +80,47 @@
 .hidden {
     display: none;
 }
+
+
+
+
+.v_articles {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 1rem;
+}
+
+.v_articles h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.gold-subsection {
+    margin-top: 2rem;
+}
+
+.gold-subsection h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 0.5rem;
+}
+
+.gold-subsection ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.gold-subsection li {
+    margin-bottom: 0.5rem;
+}
+
+.gold-subsection a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.gold-subsection a:hover {
+    text-decoration: underline;
+}
