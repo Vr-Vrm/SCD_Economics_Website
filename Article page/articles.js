@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Show or hide articles based on the selected topic
             articleCards.forEach(card => {
-                const cardTopics = card.getAttribute('data-topic');
-                if (selectedTopic === 'all' || cardTopics === selectedTopic) {
+                const cardTopic = card.getAttribute('data-topic');
+                if (selectedTopic === 'all' || cardTopic === selectedTopic) {
                     card.classList.remove('hidden');
                 } else {
                     card.classList.add('hidden');
