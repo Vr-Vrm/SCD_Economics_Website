@@ -160,7 +160,7 @@ body {
     border-bottom: 2px solid #ccc;
     margin-top: 20px;
     margin-bottom: 20px;
-    z-index: 50;
+    z-index: 25;
     position: sticky;
     top: 0;
 }
