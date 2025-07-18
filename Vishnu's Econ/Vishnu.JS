@@ -36,7 +36,7 @@ const books = [
 },
 {
     title: "The Pricing of Options and Corporate Liabilities",
-    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Black_Scholes.jpg",
+    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Option_Monte_Carlo.jpg",
     rating: 5.0,
     summary: "Fischer Black and Myron Scholes present a groundbreaking method for pricing European options, leading to the famous Black-Scholes model. By establishing a dynamic hedging approach and deriving a partial differential equation for option pricing, this paper laid the foundation for modern quantitative finance and options theory.",
     reflection: "A milestone in financial theory. Key takeaway: hedging replication as the backbone of derivative pricing."
