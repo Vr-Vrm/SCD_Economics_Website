@@ -43,14 +43,14 @@ const books = [
 },
 {
     title: "Forecasting in Nonstationary Environments: What Works and What Doesn’t in Reduced-Form and Structural Models",
-    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Forecasting_Nonstationary_Giacomini.jpg",
+    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Forecasting.jpg",
     rating: 4.3,
     summary: "Raffaella Giacomini examines the performance of reduced-form versus structural models in nonstationary environments. The paper assesses which methodologies perform better under changing economic conditions, highlighting that forecast accuracy depends heavily on the nature of structural breaks and model design.",
     reflection: "Deepened my understanding of model selection under uncertainty. Key takeaway: adapt model strategy to structural realities."
 },
 {
     title: "Economic Theory and Forecasting: Lessons from the Literature",
-    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Econ_Theory_Forecasting_Giacomini.jpg",
+    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Economic_Theory.jpg",
     rating: 4.2,
     summary: "In this comprehensive review, Raffaella Giacomini synthesizes the literature connecting economic theory with forecasting practices. The paper addresses how incorporating theory-based restrictions can affect forecast performance, drawing lessons on when theoretical foundations improve or hinder predictive accuracy.",
     reflection: "Clarified the tension between theory and empirical performance. Key takeaway: theory is a guide, not a guarantee."
