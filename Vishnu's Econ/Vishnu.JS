@@ -43,7 +43,7 @@ const books = [
 },
 {
     title: "Forecasting in Nonstationary Environments: What Works and What Doesn’t in Reduced-Form and Structural Models",
-    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Forecasting.jpg",
+    cover: "/SCD_Economics_Website/Vishnu's%20Econ/Book%20Images/Forecasting.jpg",
     rating: 4.1,
     summary: "Raffaella Giacomini examines the performance of reduced-form versus structural models in nonstationary environments. The paper assesses which methodologies perform better under changing economic conditions, highlighting that forecast accuracy depends heavily on the nature of structural breaks and model design.",
     reflection: "Deepened my understanding of model selection under uncertainty. Key takeaway: adapt model strategy to structural realities."
