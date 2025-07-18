@@ -1,7 +1,7 @@
 const books = [
   {
     title: "Thinking, Fast and Slow",
-    cover: "/SCD_Economics_Website/assets/fast_and_slow.jpg",
+    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Thinking_Fast_and_Slow.jpg",
     rating: 4,
     summary: "Kahneman explores two systems of thinking shaping our judgments.",
     reflection: "Changed how I view decisions. Key takeaway: be aware of cognitive biases."
