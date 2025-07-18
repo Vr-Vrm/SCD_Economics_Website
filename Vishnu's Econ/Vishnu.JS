@@ -8,28 +8,28 @@ const books = [
   },
   {
     title: "Enough: True Measures of Money, Business, and Life",
-    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Enough_Bogle.jpg",
+    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Enough.jpg",
     rating: 4.7,
     summary: "Written by investing legend John C. Bogle, 'Enough.' is a heartfelt plea for moderation in business and life. Bogle challenges the culture of 'more' by asking what constitutes 'enough' in terms of money, success, and happiness. With reflections from his decades-long career in finance, Bogle urges readers to focus on integrity, stewardship, and long-term values over short-term gain.",
     reflection: "Reframed my perspective on success and wealth. Key takeaway: value integrity over endless accumulation."
 },
 {
     title: "The Black Swan: The Impact of the Highly Improbable",
-    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/The_Black_Swan.jpg",
+    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Black_Swan.jpg",
     rating: 4.6,
     summary: "In 'The Black Swan,' Nassim Nicholas Taleb explores the profound impact of rare and unpredictable events — Black Swans — that lie outside regular expectations. Taleb discusses how our inability to predict these events stems from biases and flawed models, urging a shift towards robustness over prediction. This book reshapes understanding of risk, uncertainty, and randomness.",
     reflection: "Altered my understanding of uncertainty. Key takeaway: plan for the improbable, not just the expected."
 },
 {
     title: "Economic Facts and Fallacies",
-    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Econ_Facts_Fallocies.jpg",
+    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Economic_Facts_and_Fallacies.jpg",
     rating: 4.4,
     summary: "In 'Economic Facts and Fallacies,' Thomas Sowell debunks common economic misconceptions surrounding housing, education, gender, race, and income inequality. Sowell employs empirical evidence to challenge popular beliefs, illustrating how intuitive arguments often lead to flawed conclusions and poor policy decisions.",
     reflection: "Sharpened my skepticism toward popular economic narratives. Key takeaway: evidence trumps intuition."
 },
 {
     title: "Options: A Monte Carlo Approach",
-    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Options_MonteCarlo_Boyle.jpg",
+    cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Option_Monte_Carlo.jpg",
     rating: 4.5,
     summary: "In this seminal paper, Phelim P. Boyle introduces the Monte Carlo simulation approach for valuing options. By modeling the random behavior of underlying assets and applying risk-neutral valuation, Boyle demonstrates how Monte Carlo methods can flexibly handle a variety of option types beyond the reach of analytical solutions.",
     reflection: "Fundamentally changed my view of options modeling. Key takeaway: simulation as a practical tool for complex derivatives."
