@@ -2,17 +2,11 @@ const books = [
   {
     title: "Thinking, Fast and Slow",
     cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Thinking_Fast.jpg",
-    rating: 4,
-    summary: "Kahneman explores two systems of thinking shaping our judgments.",
+    rating: 4.5,
+    summary: "In Thinking, Fast and Slow, Kahneman takes us on a groundbreaking tour of the mind and explains the two systems that drive the way we think and make choices. One system is fast, intuitive, and emotional; the other is slower, more deliberative, and more logical. Kahneman exposes the extraordinary capabilities-and also the faults and biases-of fast thinking, and reveals the pervasive influence of intuitive impressions on our thoughts and behaviour. The importance of properly framing risks, the effects of cognitive biases on how we view others, the dangers of prediction, the right ways to develop skills, the pros and cons of fear and optimism, the difference between our experience and memory of events, the real components of happiness-each of these can be understood only by knowing how the two systems work together to shape our judgments and decisions.",
     reflection: "Changed how I view decisions. Key takeaway: be aware of cognitive biases."
   },
-  {
-    title: "Freakonomics",
-    cover: "/SCD_Economics_Website/assets/freakonomics.jpg",
-    rating: 5,
-    summary: "A rogue economist explores hidden sides of everything.",
-    reflection: "Enjoyed the unconventional questions. Very readable and thought-provoking."
-  }
+  
 ];
 
 function renderBooks() {
