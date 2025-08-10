@@ -25,7 +25,7 @@ const books = [
     cover: "/SCD_Economics_Website/Vishnu's Econ/Book Images/Economic_Facts_and_Fallacies.jpg",
     rating: 3,
     summary: "Economic Facts and Fallacies exposes some of the most popular fallacies about economic issues-and does so in a lively manner and without requiring any prior knowledge of economics by the reader. These include many beliefs widely disseminated in the media and by politicians, such as mistaken ideas about urban problems, income differences, male-female economic differences, as well as economics fallacies about academia, about race, and about Third World countries. One of the themes of Economic Facts and Fallacies is that fallacies are not simply crazy ideas but in fact have a certain plausibility that gives them their staying power-and makes careful examination of their flaws both necessary and important, as well as sometimes humorous. ",
-    reflection: "Sharpened my skepticism toward popular economic narratives. Key takeaway: evidence trumps intuition."
+    reflection: "Thomas Sowell debunks some of the biggest myths shaping public debates. He breaks down complex social, economical and political topics like housing, income gaps and discrimintation into straightforward, easy to understand examples. By the end you feel better equipped to spot bad arguements and see the bigger economic picture."
 },
 {
     title: "Options: A Monte Carlo Approach",
