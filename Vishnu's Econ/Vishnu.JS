@@ -39,7 +39,8 @@ const books = [
     cover: "/SCD_Economics_Website/Vishnu's%20Econ/Book%20Images/Black_Scholes.jpg",
     rating: 4,
     summary: "If options are correctly priced in the market, it should not be possible to make sure profits by creating portfolios of long and short positions in options and their underlying stocks. Using this principle, a theoretical valuation formula for options is derived. Since almost all corporate liabilities can be viewed as combinations of options, the formula and the analysis that led to it are also applicable to corporate liabilities such as common stock, corporate bonds, and warrants. In particular, the formula can be used to derive the discount that should be applied to a corporate bond because of the possibility of default.",
-},
+    reflection:""
+  },
 {
     title: "Forecasting in Nonstationary Environments: What Works and What Doesn’t in Reduced-Form and Structural Models",
     cover: "/SCD_Economics_Website/Vishnu's%20Econ/Book%20Images/Forecasting.jpg",
